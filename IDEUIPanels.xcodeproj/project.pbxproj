@@ -14,6 +14,9 @@
 		0B958F472D056B1C00D26DC3 /* IDEUIPanelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B958F462D056B1C00D26DC3 /* IDEUIPanelsTests.swift */; };
 		0B958F512D056B1C00D26DC3 /* IDEUIPanelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B958F502D056B1C00D26DC3 /* IDEUIPanelsUITests.swift */; };
 		0B958F532D056B1C00D26DC3 /* IDEUIPanelsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B958F522D056B1C00D26DC3 /* IDEUIPanelsUITestsLaunchTests.swift */; };
+		0B958F632D056EC800D26DC3 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B958F622D056EC800D26DC3 /* SidebarView.swift */; };
+		0B958F652D056FB700D26DC3 /* MainPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B958F642D056FB700D26DC3 /* MainPanelView.swift */; };
+		0B958F672D056FD800D26DC3 /* BottomPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B958F662D056FD800D26DC3 /* BottomPanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		0B958F4C2D056B1C00D26DC3 /* IDEUIPanelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDEUIPanelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B958F502D056B1C00D26DC3 /* IDEUIPanelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDEUIPanelsUITests.swift; sourceTree = "<group>"; };
 		0B958F522D056B1C00D26DC3 /* IDEUIPanelsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDEUIPanelsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B958F622D056EC800D26DC3 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		0B958F642D056FB700D26DC3 /* MainPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPanelView.swift; sourceTree = "<group>"; };
+		0B958F662D056FD800D26DC3 /* BottomPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomPanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		0B958F342D056B1B00D26DC3 /* IDEUIPanels */ = {
 			isa = PBXGroup;
 			children = (
+				0B958F612D056E8000D26DC3 /* BottomPanel */,
+				0B958F602D056E7500D26DC3 /* MainPanel */,
+				0B958F5F2D056E6800D26DC3 /* Sidebar */,
 				0B958F352D056B1B00D26DC3 /* IDEUIPanelsApp.swift */,
 				0B958F372D056B1B00D26DC3 /* ContentView.swift */,
 				0B958F392D056B1C00D26DC3 /* Assets.xcassets */,
@@ -125,6 +134,30 @@
 				0B958F522D056B1C00D26DC3 /* IDEUIPanelsUITestsLaunchTests.swift */,
 			);
 			path = IDEUIPanelsUITests;
+			sourceTree = "<group>";
+		};
+		0B958F5F2D056E6800D26DC3 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				0B958F622D056EC800D26DC3 /* SidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		0B958F602D056E7500D26DC3 /* MainPanel */ = {
+			isa = PBXGroup;
+			children = (
+				0B958F642D056FB700D26DC3 /* MainPanelView.swift */,
+			);
+			path = MainPanel;
+			sourceTree = "<group>";
+		};
+		0B958F612D056E8000D26DC3 /* BottomPanel */ = {
+			isa = PBXGroup;
+			children = (
+				0B958F662D056FD800D26DC3 /* BottomPanelView.swift */,
+			);
+			path = BottomPanel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B958F672D056FD800D26DC3 /* BottomPanelView.swift in Sources */,
 				0B958F382D056B1B00D26DC3 /* ContentView.swift in Sources */,
 				0B958F362D056B1B00D26DC3 /* IDEUIPanelsApp.swift in Sources */,
+				0B958F652D056FB700D26DC3 /* MainPanelView.swift in Sources */,
+				0B958F632D056EC800D26DC3 /* SidebarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
